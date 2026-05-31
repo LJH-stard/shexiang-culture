@@ -1,1 +1,213 @@
 # shexiang-culture
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>筑梦畲乡</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Microsoft YaHei",sans-serif;
+}
+
+body{
+    background:#f5f7fa;
+    color:#333;
+    line-height:1.8;
+}
+
+header{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero h1{
+    font-size:4rem;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:1.3rem;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:12px 28px;
+    background:#ff6b6b;
+    color:white;
+    text-decoration:none;
+    border-radius:30px;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:15px;
+}
+
+.card-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:12px;
+}
+
+.recruit{
+    text-align:center;
+    color:white;
+    background:linear-gradient(135deg,#6c5ce7,#00cec9);
+}
+
+footer{
+    background:#2f3542;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+    .about{
+        grid-template-columns:1fr;
+    }
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+        <div>
+            <h1>筑梦畲乡</h1>
+            <p>传承畲族文化 · 展现民族风采 · 共筑乡村振兴梦想</p>
+            <a href="#about" class="btn">了解更多</a>
+        </div>
+    </div>
+</header>
+
+<section id="about">
+    <div class="title">
+        <h2>走进畲乡</h2>
+    </div>
+
+    <div class="about">
+        <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963">
+
+        <div>
+            <p>
+                畲族是中国少数民族之一，拥有悠久的历史文化和丰富的民族传统。
+                畲歌、畲服、畲医药、传统节庆等文化遗产承载着民族智慧与精神力量。
+            </p>
+
+            <p>
+                筑梦畲乡项目致力于推动畲族文化传承与创新发展，通过数字化传播、
+                社会实践、文化活动等形式，让更多青年了解畲族文化。
+            </p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="title">
+        <h2>畲族文化特色</h2>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <h3>🎵 畲歌文化</h3>
+            <p>被誉为口头百科全书，记录民族历史与生活。</p>
+        </div>
+
+        <div class="card">
+            <h3>👘 民族服饰</h3>
+            <p>色彩鲜艳，刺绣精美，具有浓厚民族特色。</p>
+        </div>
+
+        <div class="card">
+            <h3>🎉 传统节庆</h3>
+            <p>三月三等节庆活动体现民族文化魅力。</p>
+        </div>
+
+        <div class="card">
+            <h3>🏞️ 畲乡风光</h3>
+            <p>自然生态与民族文化深度融合。</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="title">
+        <h2>活动风采</h2>
+    </div>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
+        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622">
+        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+    </div>
+</section>
+
+<section class="recruit">
+    <h2>加入筑梦畲乡</h2>
+    <p>
+        欢迎热爱文化传播、摄影摄像、新媒体运营、
+        活动策划的同学加入我们。
+    </p>
+    <a href="#" class="btn">立即报名</a>
+</section>
+
+<footer>
+    <p>© 2026 筑梦畲乡团队 版权所有</p>
+</footer>
+
+</body>
+</html>
